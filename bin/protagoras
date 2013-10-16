@@ -1,0 +1,4 @@
+#!/usr/bin/ruby env
+
+require 'protagoras'
+Protagoras::REPL.new.start
