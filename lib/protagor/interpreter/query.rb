@@ -1,4 +1,4 @@
-require './clause'
+require_relative './clause'
 
 class Protagor::Interpreter
   class Query < String

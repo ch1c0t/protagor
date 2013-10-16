@@ -4,7 +4,7 @@ class Protagor::Interpreter
       response = ""
 
       query.clauses.each do |clause|
-        response << execute(clause, in: BIPs::Context) if clause.bip?
+        response << execute(clause, in_context: Protagor::BIPs::Context) if clause.bip?
       end
 
       super (response << 'yes')
@@ -12,7 +12,8 @@ class Protagor::Interpreter
 
     private
 
-    def execute clause, in: SomeDefaultContext
+    def execute clause, in_context: SomeDefaultContext
+      in_context.eval clause
     end
   end
 end

@@ -1,6 +1,4 @@
 module Protagor::BIPs::Context
-  extend self
-
   def eval string
     instance_eval string
   end

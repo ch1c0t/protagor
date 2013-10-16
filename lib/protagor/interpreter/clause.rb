@@ -13,7 +13,7 @@ class Protagor::Interpreter
     private
 
     def parse
-      @bip = BIPs.any? { |bip| start_with? bip }
+      @bip = Protagor::BIPs::LIST.any? { |bip| start_with? bip }
     end
   end
 end

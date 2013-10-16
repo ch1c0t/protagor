@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Protagor::VERSION
   spec.authors       = ["Anatoly Chernow"]
   spec.email         = ["ch1c0t@yahoo.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{A subset of Prolog written in Ruby}
+  spec.summary       = spec.description
   spec.homepage      = ""
   spec.license       = "MIT"
 

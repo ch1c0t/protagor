@@ -1,5 +1,5 @@
-require './interpreter/query'
-require './interpreter/response'
+require_relative './interpreter/query'
+require_relative './interpreter/response'
 
 module Protagor
   class Interpreter

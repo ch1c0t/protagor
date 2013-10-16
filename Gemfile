@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in protagoras.gemspec
+# Specify your gem's dependencies in protagor.gemspec
 gemspec
